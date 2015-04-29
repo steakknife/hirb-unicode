@@ -3,16 +3,14 @@ $:.push File.expand_path("../lib", __FILE__)
 require "hirb/unicode/version"
 
 Gem::Specification.new do |s|
-  s.name        = "hirb-unicode"
+  s.name        = "hirb-unicode-steakknife"
   s.version     = Hirb::Unicode::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["miaout17"]
-  s.email       = ["miaout17 at gmail dot com"]
+  s.authors     = ["steakknife", "miaout17"]
+  s.email       = ["barry.allard@gmail.com", "miaout17 at gmail dot com"]
   s.homepage    = ""
   s.summary     = %q{Unicode support for hirb}
   s.description = %q{Unicode support for hirb}
-
-  s.rubyforge_project = "hirb-unicode"
 
   s.add_dependency 'hirb', '~> 0.5'
   s.add_dependency 'unicode-display_width', '>= 0.2.0', '< 1.0'
