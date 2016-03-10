@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.description = %q{Unicode support for hirb}
 
   s.add_dependency 'hirb', '~> 0.5'
-  s.add_dependency 'unicode-display_width', '>= 0.2.0', '< 1.0'
+  s.add_dependency 'unicode-display_width', '>= 0.2.0', '< 2.0'
   # Use the same test utility as `hirb`
   s.add_development_dependency 'bacon', '>= 1.1.0'
   s.add_development_dependency 'mocha'
