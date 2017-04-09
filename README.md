@@ -18,13 +18,13 @@ With `hirb-unicode-steakknife`, the cells is correctly aligned:
 This will load `hirb` and `hirb-unicode-steakknife`, and fix the unicode problem automtically:
 
     gem 'hirb-unicode-steakknife'
-    require 'hirb-unicode-steakknife'
+    require 'hirb-unicode'
 
 If you are using `bundler` (ex. Rails 3), add `hirb-unicode-steakknife` into your gemfile:
 
     gem 'hirb-unicode-steakknife'
 
-And run `require 'hirb-unicode-steakknife'` in your irb console or `.irbrc`
+And run `require 'hirb-unicode'` in your irb console or `.irbrc`
 
 ## Dependency
 
