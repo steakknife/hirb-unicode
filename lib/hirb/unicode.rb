@@ -1,4 +1,5 @@
 require 'hirb'
 require 'unicode/display_width'
+require 'unicode/display_width/string_ext'
 require 'hirb/unicode/version'
 require 'hirb/unicode/string_util'
